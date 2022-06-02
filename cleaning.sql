@@ -19,7 +19,13 @@ drop column measure,
 drop column frequency, 
 drop column flag_codes;
 
+--limit to year 2020
+
+create table edu_attain_2020 as 
 select * from edu_attain
+where years like '2020';
+
+select * from edu_attain_2020
 limit 10;
 
 --clean pop_female
