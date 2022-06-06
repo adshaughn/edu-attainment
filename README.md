@@ -53,3 +53,27 @@ README.md must include:
 ✓ Cohesive, structured outline of the project (this may include images, but should be easy to follow and digest)
 ✓ Link to dashboard (or link to video of dashboard demo)
 ✓ Link to Google Slides presentation
+
+
+
+# Project Outline
+
+- Educational attainment is a quantitative way to XXX. It 
+- We began by highlighting potential variables that we felt could have the greatest impact on educational attainment. Initially, we hoped to include things like:
+	- parental income
+	- birth order
+	- gap between siblings
+	- age
+	- retirement
+	- region/country
+	- religion / cultural
+	- gender
+	- employment
+		- age of first job
+		- job industry of parents/family
+	- parental educational attainment
+- Moving into data collection though, the availability of data made such a complex analysis significantly more challenging. Therefore, we decided to focus on a cross-country analysis, including age as an independent variable.
+- By doing so, we were able to use OECD data as our primary data source. We were able to pull educational attainment data (secondary and tertiary), and combine that with population data to generate an additional category of less than secondary.
+- We utilized AWS S3 as a place to store files, including some data tables, as we completed our analysis. Once pared down into those we knew we would use, we added the relevant data into a Postgres RDS database, and then used PostgreSQL as our primary ETL tool.
+- From there we built our ML model XXX
+- We also connected to our RDS database via Tableau, to generate additional visualizations shown in our presentation.
