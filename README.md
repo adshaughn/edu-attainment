@@ -76,4 +76,5 @@ README.md must include:
 - By doing so, we were able to use OECD data as our primary data source. We were able to pull educational attainment data (secondary and tertiary), and combine that with population data to generate an additional category of less than secondary.
 - We utilized AWS S3 as a place to store files, including some data tables, as we completed our analysis. Once pared down into those we knew we would use, we added the relevant data into a Postgres RDS database, and then used PostgreSQL as our primary ETL tool.
 - From there we built our ML model XXX
-- We also connected to our RDS database via Tableau, to generate additional visualizations shown in our presentation.
+- We also connected to our RDS database via Tableau, to generate additional visualizations as shown in our presentation.
+- 	Link to dashboard: https://public.tableau.com/views/EducationalAttainmentbyRegion/Dashboard2?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
