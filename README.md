@@ -56,6 +56,7 @@ Link to presentation: https://docs.google.com/presentation/d/1dcHEvbPaf5ty9LtmQn
 	3. year
 - Training-Testing Data Split: 75/25
 - After testing various models, we selected the Linear Regression Model because it returned the highest accuracy score.
+	- Major Limitations: too few features and not enough data
 - By examining the confusion matrix, we can see that our model is very inaccurate; it does a poor job at predicting educational attainment based only on the above listed features.
 - Final Accuracy Score: 32.5%
 
