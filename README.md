@@ -49,6 +49,15 @@ README.md must include:
 
 Link to presentation: https://docs.google.com/presentation/d/1dcHEvbPaf5ty9LtmQn97xmhGKrUyORpNP1yuxFNH308/edit?usp=sharing
 
+# Machine Learning Model Description
+- Due to our limited dataset, we had only the following three features...
+	1. gender
+	2. country
+	3. year
+- Training-Testing Data Split: 75/25
+- After testing various models, we selected the Linear Regression Model because it returned the highest accuracy score.
+- By examining the confusion matrix, we can see that our model is very inaccurate; it does a poor job at predicting educational attainment based only on the above listed features.
+- Final Accuracy Score: 32.5%
 
 # Future Analysis
 While our results did not have a great degree of predicitve power, in the future we'd like to continue to work to determine which independent variables have the most effect on our dependent variable, educational attainment.
